@@ -1,0 +1,41 @@
+* {
+	font-family: Arial;
+}
+.wrapper {
+	display: none;
+	width: 80%;
+	margin: auto;
+	justify-content: space-evenly;
+	background: rgba(0, 255, 4, 0.108);
+}
+.options {
+	display: flex;
+	width: 50%;
+	flex-flow: column;
+	align-items: center;
+}
+.section {
+	width: 50%;
+	background: rgba(0, 0, 255, 0.322);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	padding: 5px 0px 5px 0px;
+	border: 1px solid rgb(0, 0, 0);
+	height: 10vh;
+	padding: 0px 10px 0px 10px;
+}
+.section div,
+span {
+	padding: 3px;
+}
+span {
+	text-shadow: 1px #000;
+	font-weight: bold;
+	text-align: right;
+}
+.hotdog {
+	width: 30%;
+	height: auto;
+}
